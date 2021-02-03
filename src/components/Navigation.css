@@ -1,0 +1,28 @@
+.navigator {
+  width: 100px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 30px;
+  left: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.navigator a {
+  color: black;
+  padding: 8px 0px;
+  font-size: 17px;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+}
+
+.navigator a:first-child {
+  border-bottom: 1px solid black;
+}
